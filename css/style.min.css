@@ -77,6 +77,11 @@ body .main__gallery .img6::before {
   }
 }
 @media (max-width: 320px) {
+  
+  body .main__header{
+    padding: 0 15px;
+}
+  
   body .main__gallery {
     grid-template-columns: repeat(2, minmax(auto, 159px));
     grid-template-rows: repeat(5, 1fr);
